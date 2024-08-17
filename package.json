@@ -1,0 +1,25 @@
+{
+  "name": "@tomi/biome-config",
+  "version": "0.1.1",
+  "description": "Shared biome linting/formatting configuration",
+  "keywords": ["biome"],
+  "author": "Tomi Studio (https://github.com/tomistudio)",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomistudio/biome-config.git"
+  },
+  "homepage": "https://github.com/tomistudio/biome-config",
+  "bugs": "https://github.com/tomistudio/biome-config/issues",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  },
+  "scripts": {
+    "verify": "biome check"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "1.8.2"
+  },
+  "trustedDependencies": ["@biomejs/biome"]
+}

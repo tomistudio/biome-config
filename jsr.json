@@ -1,0 +1,7 @@
+{
+  "name": "@tomi/biome-config",
+  "version": "0.1.1",
+  "exports": {
+    "./biome": "./config.json"
+  }
+}
